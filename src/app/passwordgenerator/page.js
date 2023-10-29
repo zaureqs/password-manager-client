@@ -92,7 +92,7 @@ const PasswordGenerator = () => {
         <button
           className="flex flex-row gap-2 items-center justify-center p-3 w-full rounded-md text-blue-900 bg-violet-50 hover:bg-blue-200 max-md:text-lg"
           onClick={() => {
-            copyToClipboard();
+            copyToClipboard(password);
             toast.success("password copied successfully", {
               autoClose: 2000,
             });
