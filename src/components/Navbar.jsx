@@ -75,7 +75,7 @@ const Navbar = () => {
             <a href="/dashboard">Dashboard</a>
           </li>
           <li className="hover:text-indigo-300 hover:underline">
-            <a href="/passwordstrength">Passord tester</a>
+            <a href="/passwordstrength">Password tester</a>
           </li>
           <li className="hover:text-indigo-300 hover:underline">
             <a href="/passwordgenerator">Generate</a>
