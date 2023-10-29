@@ -99,10 +99,10 @@ const Navbar = () => {
                 <a href="/dashboard">Dashboard</a>
               </li>
               <li className="hover:text-indigo-300 hover:underline">
-                <a href="/about">About</a>
+                <a href="/passwordstrength">Passord tester</a>
               </li>
               <li className="hover:text-indigo-300 hover:underline">
-                <a href="/help">Help</a>
+                <a href="/passwordgenerator">Generate</a>
               </li>
               <li className="hover:text-indigo-400 hover:underline">
                 <a href="/account">Account</a>
