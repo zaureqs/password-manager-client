@@ -4,7 +4,7 @@ import React, { useEffect, useState } from "react";
 import HomePage from "../components/HomePage";
 import Features from "@/components/Features.jsx";
 import Footer from "@/components/Footer.jsx";
-import BackToTopBtn from "@/components/BackToTopBtn.jsx";
+import BackToTopBtn from "@/components/BacktoTopBtn";
 
 export default function Home() {
 

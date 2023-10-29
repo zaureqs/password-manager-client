@@ -2,7 +2,6 @@
 import React from "react";
 
 import TryNow from "./TryNow";
-import LogOut from "./LogOut";
 import Image from "next/image";
 import HomeImg from "../../public/assets/onHomePage2-removed-watermark.png";
 
