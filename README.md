@@ -11,7 +11,7 @@ or
 npm install
 ```
 
-for backend see [backend server](https://github.com/zaureqs/password-manager-backend)
+for backend see [backend server](https://github.com/zaureqs/password-manager-server)
 
 make a file `.env.local` in root directory
 
