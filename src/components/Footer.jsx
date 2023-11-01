@@ -32,7 +32,7 @@ function Footer() {
                 </li>
                 <li>
                   <a
-                    href="https://www.linkedin.com/in/manish-fenin/"
+                    href="https://www.linkedin.com/"
                     className="hover:underline "
                   >
                     linkedin
@@ -71,7 +71,7 @@ function Footer() {
                 </li>
                 <li>
                   <a
-                    href="mailto:mkfenin2k@gmail.com"
+                    href="mailto:#"
                     className="hover:underline"
                   >
                     Email for query
@@ -92,21 +92,21 @@ function Footer() {
           </span>
           <div className="flex mt-4 space-x-5 sm:justify-center sm:mt-0">
             <a
-              href="https://instagram.com/m_fen.in"
+              href="https://instagram.com/instagram"
               className="text-gray-500 hover:text-gray-900 dark:hover:text-white"
             >
               <BiLogoInstagramAlt size={22} />
               <span className="sr-only">Instagram</span>
             </a>
             <a
-              href="https://twitter.com/zaureqs"
+              href="https://twitter.com/twitter"
               className="text-gray-500 hover:text-gray-900 dark:hover:text-white"
             >
               <FaTwitter size={20} />
               <span className="sr-only">Twitter page</span>
             </a>
             <a
-              href="https://github.com/zaureqs"
+              href="https://github.com/github"
               className="text-gray-500 hover:text-gray-900 dark:hover:text-white"
             >
               <AiFillGithub size={22} />

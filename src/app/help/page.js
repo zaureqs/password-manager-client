@@ -14,7 +14,7 @@ export default function helpPage() {
           <p className="text-xl max-md:mt-4 text-center">
             Let us know how we can help.{" "}
             <a
-              href="mailto:mkfenin2k@gmail.com"
+              href="mailto:#"
               className="hover:underline text-blue-400"
             >
               Contact CipherSafe Support
