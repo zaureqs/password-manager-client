@@ -28,10 +28,6 @@ const SignUp = (props) => {
     confirmPassword: "",
   });
 
-  const handleClick = () => {
-    props.setSwitchLogin(false);
-  };
-
   const handleShowPassword = () => {
     setShowPassword(!showPassword);
   };
@@ -45,7 +41,7 @@ const SignUp = (props) => {
       const response = await signUp({...user, password: hashedPassword});
       console.log(response);
       if(response.success){
-        window.location.href = '/dashboard';
+        toast.success('verification email sent successfully to your email address');
       } else {
         toast.error('something went wrong');
       }
@@ -147,7 +143,7 @@ const SignUp = (props) => {
         </form>
         <div className="text-[#002E48] mt-4 text-lg">
           Already have an account?{" "}
-          <button onClick={handleClick} className="text-blue-700 underline">
+          <button onClick={() => {props.setSwitchLogin(true)}} className="text-blue-700 underline">
             LogIn
           </button>
         </div>

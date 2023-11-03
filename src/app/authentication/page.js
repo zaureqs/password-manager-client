@@ -39,7 +39,7 @@ export default function authentication() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-center p-24 bg-[#002E48] text-black">
           <div className="w-screen p-5 pt-2 bg-opacity-75 lg:w-4/6 xl:w-1/2">
-            {SwitchLogin ? (
+            {!SwitchLogin ? (
               <SignUp
                 SwitchLogin={SwitchLogin}
                 setSwitchLogin={setSwitchLogin}

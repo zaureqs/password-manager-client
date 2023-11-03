@@ -26,9 +26,6 @@ const LogIn = (props) => {
     password: "",
   });
 
-  const handleClick = () => {
-    props.setSwitchLogin(true);
-  };
 
   const handleShowPassword = () => {
     setShowPassword(!showPassword);
@@ -110,7 +107,7 @@ const LogIn = (props) => {
           </button>
         </form>
         <div className="text-[#002E48] mt-4 text-lg">
-          Don't have an account? <button onClick={handleClick} className="text-blue-700 underline">SignUp</button>
+          Don't have an account? <button onClick={() => props.setSwitchLogin(false)} className="text-blue-700 underline">SignUp</button>
         </div>
       </div>
     </div>
