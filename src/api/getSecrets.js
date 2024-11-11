@@ -5,7 +5,8 @@ import { cookies } from 'next/headers';
 const getSecrets = async (token) => {
   
   try {
-    const token = cookies().get('token');
+    const cookie = await cookies();
+    const token = cookie.get('token');
     if(!token)
     {
       return {success: false};

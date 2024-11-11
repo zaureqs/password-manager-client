@@ -4,7 +4,8 @@ import { cookies } from 'next/headers';
 
 const isLogedIn = async () => {
   try {
-    const token = await cookies().get('token');
+    const cookie = await cookies();
+    const token = cookie?.get('token');
     if(!token)
     {
       return {success: false};
