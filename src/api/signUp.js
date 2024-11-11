@@ -17,7 +17,7 @@ const signUp = async (user) => {
     
 
     if(response.data.success){
-      cookies().set('token',response.data.token,options);
+      await cookies().set('token',response.data.token || " ",options);
     }
 
     response.data.token = undefined;
