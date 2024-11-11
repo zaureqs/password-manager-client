@@ -6,7 +6,7 @@ const getSecrets = async (token) => {
   
   try {
     const cookie = await cookies();
-    const token = cookie.get('token');
+    const token = cookie.get('token')?.value;
     if(!token)
     {
       return {success: false};
